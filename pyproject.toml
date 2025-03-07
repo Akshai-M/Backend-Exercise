@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "backend-exercise"
+version = "0.1.0"
+description = "A CLI tool to fetch PubMed research papers"
+authors = ["Akshai-M <mylapuramakshaikumar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+
+[tool.poetry.scripts]
+get-papers-list = "pubmed_fetch:main"
